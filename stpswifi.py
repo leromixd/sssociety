@@ -1,7 +1,7 @@
 import subprocess
 from colorama import Fore, Back, Style
 import os
-os.system('clear')
+os.system('cls')
 data = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles']).decode('cp866').split('\n')
 WiFis = [line.split(':')[1][1:-1] for line in data if "Все профили пользователей" in line]
 for WiFi in WiFis:
