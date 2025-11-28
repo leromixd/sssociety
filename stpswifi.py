@@ -11,4 +11,4 @@ for WiFi in WiFis:
         print(Fore.GREEN + f'[NAME: {WiFi}], [PASS: {results[0]}]')
     except IndexError:
         print(Fore.RED + f'[NAME]: {WiFi}, [PASS: None]')
-print(Fore.LIGHTGREEN_EX + f'all password geted')
+print(Fore.LIGHTGREEN_EX + f'all password geted' + Fore.WHITE)
